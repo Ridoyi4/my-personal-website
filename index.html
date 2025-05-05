@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal website</title>
+    <style>
+        body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+header{
+    width: 100%;
+    height: 50px;
+    position:fixed ;
+    
+    top: 0;
+
+    background-color: #fff;
+    box-shadow: 10px 5px 15px gray;
+}
+header div {
+    float: left;
+}
+header .logo{
+margin-left: 150px;
+padding: 15px;
+font-weight: bold;
+font-size: 20px;
+color: blue;
+}
+header .navber{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 195px;
+
+}
+header .navber ul{
+    list-style: none;
+}
+header .navber ul li{
+    float: left;
+    padding-right: 40px;
+}
+header .navber ul li a{
+    text-decoration: none;
+    color:rgb(41,41,41);
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+}
+header .navber ul li a:hover{
+    color: #7f97ff;
+}
+.section1{
+    background-color: #f9f9ff;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+    
+}
+.a1,.a2{
+    width: 50%;
+
+}
+.a1{
+    margin-left: 170px;
+    margin-bottom:120px;
+}
+.a2{
+    margin-left: 150px;
+}
+.a2 img{
+    max-width: 100%;
+    height: auto;
+}
+.a1 h3{
+    font-weight: bold;
+color: #09f4f4;
+font-size: 25px;
+}
+.a1 h1{
+    font-size: 30px;
+    color: blue
+}
+.a1 p{
+    color:blue ;
+}
+.a1 input{
+    padding: 8px 20px;
+    background-color:#8393ff ;
+    outline: none;
+    color: white;
+    border: 1px solid #8393ff;
+    font-size: 15px;
+
+}
+.a1 input:hover{
+    box-shadow: 5px 10px 30px hsla(232, 94%, 40%, 0.502);
+}
+.section2{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.section2 div{
+    width: 40%;
+    margin: 0px auto;
+
+}
+.section2 img{
+    max-width: 100%;
+    height: auto;
+    margin-left: 100px;
+}
+.b2 h3{
+    font-weight: bold;
+    color: #08ebebde;
+}
+.b2 h1{
+    font-weight: bold;
+    color: blue;
+
+}
+.b2 p{
+    color: blue;
+    margin-right: 140px;
+}
+.b2 input{
+font-size: 20px;
+padding: 12px 16px;
+outline: none;
+color: white;
+background-color: #8293ff;
+border: none;
+}
+.section3{
+    width: 100%;
+    height: 400px;
+    margin: 0 auto;
+    text-align: center;
+    
+
+}
+.section3 h1{
+    font-weight: bold;
+    color: blue;
+}
+.section3 .l1{
+    font-weight: bold;
+    color: aqua;
+}
+.service1{
+    display: flex;
+    width: 70%;
+    margin-left: 180px;
+}
+ .service1 h4{
+    text-transform: uppercase;
+    color: blue;
+ }
+ .service1 .c1:hover{
+    background-color: aqua;
+ }
+ .service1 .c3:hover{
+    background-color: aqua;
+ }
+ .service1 .c4:hover{
+    background-color: aqua;
+ }
+ .service1 .c5:hover{
+    background-color: aqua;
+ }
+ .service1 .c6:hover{
+    background-color: aqua;
+ }
+ .service1 .c2:hover{
+    background-color: aqua;
+ } 
+ .section4{
+    width: 100%;
+    height: 150px;
+    
+background-color: #7f97ff;
+    
+ }
+ .section4 div{
+    float: left;
+    margin-left: 200px;
+    
+    
+ }
+ .section4 h1,.l1{
+    text-align: center;
+    
+ }
+.section5 .e1{
+text-align: center;
+font-weight: bold;
+ }
+.section5 .e1 .e2{
+    color: aqua;
+}
+.section5 .e1 .e3{
+    color: blue;
+}
+.section5{
+    width: 70%;
+    height: 500px;
+    margin-left: 170px;
+    
+    
+}
+.section5 .d4{
+    display: flex;
+margin-left: 360px;
+justify-content: space-between;
+text-align: center;
+position: relative;
+right: 160px;
+
+}
+.section5 .d4 .d5:hover{
+    background-color: #09f4f4;
+    padding: 10px 40px;
+}
+.section5 .d4 .d5 input{
+    background-color: rgb(45, 45, 235);
+    color: white;
+    outline: none;
+    border: 2px solid rgb(45,45,235);
+}
+
+
+
+
+
+footer{
+    position: absolute;
+    text-align: center;
+    background-color: #120e0e;
+width: 100%;
+color: white;
+
+}
+.name h2{
+    font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+font-size: 50px;
+
+}
+.text p{
+    width:600px ;
+    text-align: center;
+    margin:0px auto;
+    position: relative;
+    top:-30px
+}
+.copy{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    font-size: 25px;
+    line-height: 50px;
+}
+
+
+
+
+.form1{
+    background-color: crimson;
+    color: white;
+    text-align: center;
+    margin: 0px auto;
+    width: fit-content;
+    height: fit-content;
+    padding: 40px 90px;
+    margin-top: 50px;
+    border-radius: 5%;
+    font-size: 30px;
+
+}
+.form1 input{
+    padding: 5px 50px;
+    border-radius: 50px;
+    border-color: crimson;
+}
+.form1 .btn{
+    font-weight: bold;
+}
+.section7{
+    position: relative;
+    
+    background-color: blue;
+    padding: 50px;
+    
+}
+@media all and (max-width:768px){
+    header .logo{
+        margin-left: 8px;
+    }
+    header .navber{
+        margin-right: 2px;
+        
+    }
+    .a1{margin-left: 26px;}
+    .section2 img{
+        margin-left: 7px;
+    }
+.service1{
+    margin-left: 87px;
+}   
+.section5 .d4{
+    margin-left: 180px;
+} 
+.section4 div{
+    margin-left: 100px;
+    
+}
+.section4{
+    margin-top: 15px;
+}
+.section5 .e1 .e2{
+    margin-right: 180px;
+}
+.section5 .e1 .e3{
+    margin-right: 170px;
+}
+
+}
+
+ 
+    
+    
+
+
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">Personal website</div>
+        <div class="navber">
+            
+            <ul>
+            <li><a href="#" style="color: #7f97ff;">Home</a></li>
+            <li><a href="https://www.youtube.com">Youtube</a></li>
+            <li><a href="https://www.facebook.com">Facebook</a></li>
+            <li><a href="https://www.google.com">Google</a></li>
+            <li><a href="https://www.chatgpt.com">Chatgpt</a></li>
+            <li><a href="#">Contact</a></li>
+
+            </ul>
+        </div>
+    
+
+    </header>
+    <section class="section1">
+        <div class="a1">
+<h3>THIS IS ME</h3>
+
+<h1>A.K.RIDOY PROGRAMMER</h1>
+
+<p>I am a programmer of web development as well as a student depertment of English.Not only that i am a web developer of  HTMl,CSS and JAVASCRIPT.</p>
+<input type="button" value="click me">
+        </div>
+        <div class="a2">
+            <img src="ridoy1.JPG" alt="ridoy">
+        </div>
+    </section>
+    <section class="section2">
+<div class="b1">
+    <img src="ridoy1.JPG"  alt="ridoy">
+
+</div>
+<div class="b2">
+<h3>ABOUT ME</h3>
+<h1>PERSONAL DETAILS</h1>
+<p>My name is ridoy.I am a student of National University as well as a programmer of web development.</p>
+<input type="button" value="VIEW FULL DETAILS">
+</div>
+    </section>
+    <section class="section3">
+<div>
+    <h1>My offered services</h1>
+    <P class="l1">
+        I am working in web development with html,css and javascript.
+    </P>
+    
+</div>
+
+
+
+
+<div class="service1">
+<div class="c1">
+<h4>html site</h4>
+<p class="p1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore voluptatibus mollitia atque itaque saepe, consequatur.</p>
+</div>
+
+<div class="c2">
+    <h4>css site</h4>
+    <p class="p2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore voluptatibus mollitia atque itaque saepe, consequatur.</p>
+    </div>
+
+    <div class="c3">
+        <h4>javascript site</h4>
+        <p class="p3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore voluptatibus mollitia atque itaque saepe, consequatur.</p>
+        </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+<div class="service1">
+    <div class="c4">
+    <h4>web site</h4>
+    <p class="p1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore voluptatibus mollitia atque itaque saepe, consequatur.</p>
+    </div>
+    
+    <div class="c5">
+        <h4> web design</h4>
+        <p class="p2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore voluptatibus mollitia atque itaque saepe, consequatur.</p>
+        </div>
+    
+        <div class="c6">
+            <h4>programmer</h4>
+            <p class="p3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore voluptatibus mollitia atque itaque saepe, consequatur.</p>
+            </div>
+    
+    </div>
+    
+
+
+
+    </section>
+    <section class="section4">
+<div>
+    <h1>2020</h1>
+    <p class="l1">time of learn</p>
+</div>
+<div>
+    <h1>2021</h1>
+    <p class="l1">time of learn</p>
+</div><div>
+    <h1>2022</h1>
+    <p class="l1">time of learn</p>
+</div><div>
+    <h1>2023</h1>
+    <p class="l1">time of learn</p>
+</div>
+    </section>
+    <section class="section5">
+<div class="e1">
+<h1 class="e2">choose your plan</h1>
+<h5 class="e3">there are four types of plan in my website.</h5>
+</div>
+
+<div class="d4">
+    <dev class="d5">
+    <h1 class="d6">01</h1>
+    <h2 class="d7">business</h2>
+    <h5 class="d8">web site</h5><br>
+    <h5 class="d9">web site design</h5>
+    <h5 class="d10">html,css site</h5>
+    <h5 class="d11">javascript</h5>
+    <h3 class="d12">$199.00</h3>
+    <input type="button" value="buy now">
+    
+    </dev>
+
+    <dev class="d5">
+        <h1 class="d6">02</h1>
+        <h2 class="d7">business</h2>
+        <h5 class="d8">web site</h5><br>
+        <h5 class="d9">web site design</h5>
+        <h5 class="d10">html,css site</h5>
+        <h5 class="d11">javascript</h5>
+        <h3 class="d12">$579.00</h3>
+        <input type="button" value="buy now">
+        
+        </dev>
+
+
+        <dev class="d5">
+            <h1 class="d6">03</h1>
+            <h2 class="d7">business</h2>
+            <h5 class="d8">web site</h5><br>
+            <h5 class="d9">web site design</h5>
+            <h5 class="d10">html,css site</h5>
+            <h5 class="d11">javascript</h5>
+            <h3 class="d12">$959.00</h3>
+            <input type="button" value="buy now">
+            
+            </dev>
+    </div>
+
+
+    </section>
+
+    <section class="section7">
+        <div class="form1">
+            <form action="#" method="post">
+            Email:<br>
+            <input type="text" name="ridoy" id="ridoy"><br>
+            Password:<br>
+            <input type="password" name="password" id="password"><br>
+            <input type="reset" value="reset" class="btn">
+            <input type="submit" value="log in" class="btn">
+            
+            </form>
+            </div>
+    </section>
+
+
+
+
+
+
+    <footer>
+        <div class="name"><h2>ridoy programmer</h2></div>
+        <div class="text">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt iste, harum aperiam nihil provident amet rerum illo aut alias ex voluptates, non, rem accusamus! Obcaecati harum aut incidunt fugiat minus.</p>
+        </div>
+        <div class="copy">
+            copyright @1025 by Ridoy programmer
+        </div>
+    </footer>
+</body>
+</html>
